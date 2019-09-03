@@ -8,3 +8,5 @@ Api used - https://github.com/lukePeavey/quotable
 
 Technologies Used -
 React
+
+Live Preview - https://codepen.io/adityandroid/full/ExYwPEE
