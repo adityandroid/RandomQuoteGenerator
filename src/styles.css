@@ -1,4 +1,43 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2c3e50;
+}
+
+#quote-box {
+  background: #ffffff;
+  width: 30em;
+  border-radius: 2px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#text {
+  font-family: "Sanchez", serif;
+  font-size: 32px;
+  text-align: left;
+}
+
+#author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  align-self: flex-end;
+}
+
+#buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#new-quote {
+  order: 1;
 }
